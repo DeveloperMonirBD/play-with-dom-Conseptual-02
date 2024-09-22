@@ -9,3 +9,17 @@ document.getElementById('submit-btn').addEventListener('click', function () {
     container.appendChild(p);
     document.getElementById('text-area').value = '';
 });
+
+// // keybaord event
+
+// const inputValue = document
+//   .getElementById("text-area")
+//   .addEventListener("keyup", function (event) {
+//     if (event.key === "Enter") {
+//       const inputValue = document.getElementById("text-area").value;
+//       const p = document.createElement("p");
+//       p.innerText = inputValue;
+//       container.appendChild(p);
+//       document.getElementById("text-area").value = "";
+//     }
+//   });
